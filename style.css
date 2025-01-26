@@ -16,6 +16,7 @@ nav ul {
     color: black;
 }
 .tooltip {
+    width: calc(100% + 10vw);
     visibility: hidden;
     background-color: black;
     color: white;
@@ -29,7 +30,7 @@ nav ul {
     transform: translateX(-50%);
     margin-bottom: 5px;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 1s ease-in-out;
 }
 .tooltip::after {
     content: '';
